@@ -1,294 +1,80 @@
-Contribution: 2021-08-23 21:00
+Litecoin Core integration/staging tree
+=====================================
 
-Contribution: 2021-08-23 23:01
+[![Build Status](https://travis-ci.org/litecoin-project/litecoin.svg?branch=master)](https://travis-ci.org/litecoin-project/litecoin)
 
-Contribution: 2021-08-23 21:02
+https://litecoin.org
 
-Contribution: 2021-08-23 22:03
+What is Litecoin?
+----------------
 
-Contribution: 2021-08-23 21:04
+Litecoin is an experimental digital currency that enables instant payments to
+anyone, anywhere in the world. Litecoin uses peer-to-peer technology to operate
+with no central authority: managing transactions and issuing money are carried
+out collectively by the network. Litecoin Core is the name of open source
+software which enables the use of this currency.
 
-Contribution: 2021-08-24 20:00
+For more information, as well as an immediately useable, binary version of
+the Litecoin Core software, see [https://litecoin.org](https://litecoin.org).
 
-Contribution: 2021-08-30 22:00
+License
+-------
 
-Contribution: 2021-08-30 22:01
+Litecoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+information or see https://opensource.org/licenses/MIT.
 
-Contribution: 2021-08-30 23:02
+Development Process
+-------------------
 
-Contribution: 2021-08-30 23:03
+The `master` branch is regularly built and tested, but is not guaranteed to be
+completely stable. [Tags](https://github.com/litecoin-project/litecoin/tags) are created
+regularly to indicate new official, stable release versions of Litecoin Core.
 
-Contribution: 2021-08-30 20:04
+The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md)
+and useful hints for developers can be found in [doc/developer-notes.md](doc/developer-notes.md).
 
-Contribution: 2021-08-30 20:05
+The developer [mailing list](https://groups.google.com/forum/#!forum/litecoin-dev)
+should be used to discuss complicated or controversial changes before working
+on a patch set.
 
-Contribution: 2021-08-31 19:00
+Developer IRC can be found on Freenode at #litecoin-dev.
 
-Contribution: 2021-08-31 19:01
+Testing
+-------
 
-Contribution: 2021-08-31 20:02
+Testing and code review is the bottleneck for development; we get more pull
+requests than we can review and test on short notice. Please be patient and help out by testing
+other people's pull requests, and remember this is a security-critical project where any mistake might cost people
+lots of money.
 
-Contribution: 2021-08-31 21:03
+### Automated Testing
 
-Contribution: 2021-08-31 19:04
+Developers are strongly encouraged to write [unit tests](src/test/README.md) for new code, and to
+submit new unit tests for old code. Unit tests can be compiled and run
+(assuming they weren't disabled in configure) with: `make check`. Further details on running
+and extending unit tests can be found in [/src/test/README.md](/src/test/README.md).
 
-Contribution: 2021-08-31 21:05
+There are also [regression and integration tests](/test), written
+in Python, that are run automatically on the build server.
+These tests can be run (if the [test dependencies](/test) are installed) with: `test/functional/test_runner.py`
 
-Contribution: 2021-09-01 22:00
+The Travis CI system makes sure that every pull request is built for Windows, Linux, and macOS, and that unit/sanity tests are run automatically.
 
-Contribution: 2021-09-01 20:01
+### Manual Quality Assurance (QA) Testing
 
-Contribution: 2021-09-01 19:02
+Changes should be tested by somebody other than the developer who wrote the
+code. This is especially important for large or high-risk changes. It is useful
+to add a test plan to the pull request description if testing the changes is
+not straightforward.
 
-Contribution: 2021-09-01 20:03
+Translations
+------------
 
-Contribution: 2021-09-07 19:00
+We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
+Translations are converted to Litecoin periodically.
 
-Contribution: 2021-09-07 22:01
+Translations are periodically pulled from Transifex and merged into the git repository. See the
+[translation process](doc/translation_process.md) for details on how this works.
 
-Contribution: 2021-09-07 23:02
-
-Contribution: 2021-09-07 19:03
-
-Contribution: 2021-09-07 21:04
-
-Contribution: 2021-09-07 20:05
-
-Contribution: 2021-09-08 23:00
-
-Contribution: 2021-09-08 23:01
-
-Contribution: 2021-09-08 19:02
-
-Contribution: 2021-09-08 21:03
-
-Contribution: 2021-09-08 21:04
-
-Contribution: 2021-09-08 23:05
-
-Contribution: 2021-09-08 22:06
-
-Contribution: 2021-09-08 21:07
-
-Contribution: 2021-09-09 23:00
-
-Contribution: 2021-09-09 23:01
-
-Contribution: 2021-09-09 22:02
-
-Contribution: 2021-09-09 23:03
-
-Contribution: 2021-09-09 21:04
-
-Contribution: 2021-09-10 21:00
-
-Contribution: 2021-09-10 21:01
-
-Contribution: 2021-09-10 21:02
-
-Contribution: 2021-09-10 19:03
-
-Contribution: 2021-09-10 22:04
-
-Contribution: 2021-09-10 20:05
-
-Contribution: 2021-09-10 20:06
-
-Contribution: 2021-09-10 19:07
-
-Contribution: 2021-09-12 19:00
-
-Contribution: 2021-09-12 20:01
-
-Contribution: 2021-09-12 21:02
-
-Contribution: 2021-09-12 20:03
-
-Contribution: 2021-09-14 20:00
-
-Contribution: 2021-09-14 19:01
-
-Contribution: 2021-09-14 23:02
-
-Contribution: 2021-09-14 19:03
-
-Contribution: 2021-09-14 22:04
-
-Contribution: 2021-09-14 20:05
-
-Contribution: 2021-09-14 19:06
-
-Contribution: 2021-09-14 20:07
-
-Contribution: 2021-09-14 21:08
-
-Contribution: 2021-09-17 19:00
-
-Contribution: 2021-09-17 20:01
-
-Contribution: 2021-09-17 22:02
-
-Contribution: 2021-09-17 21:03
-
-Contribution: 2021-09-17 23:04
-
-Contribution: 2021-09-17 21:05
-
-Contribution: 2021-09-18 21:00
-
-Contribution: 2021-09-18 20:01
-
-Contribution: 2021-09-19 19:00
-
-Contribution: 2021-09-19 20:01
-
-Contribution: 2021-09-19 21:02
-
-Contribution: 2021-09-19 23:03
-
-Contribution: 2021-09-19 23:04
-
-Contribution: 2021-09-19 23:05
-
-Contribution: 2021-09-19 23:06
-
-Contribution: 2021-09-19 23:07
-
-Contribution: 2021-09-19 19:08
-
-Contribution: 2021-09-20 23:00
-
-Contribution: 2021-09-20 20:01
-
-Contribution: 2021-09-20 23:02
-
-Contribution: 2021-09-22 21:00
-
-Contribution: 2021-09-22 23:01
-
-Contribution: 2021-09-22 23:02
-
-Contribution: 2021-09-22 22:03
-
-Contribution: 2021-09-22 20:04
-
-Contribution: 2021-09-22 20:05
-
-Contribution: 2021-09-22 23:06
-
-Contribution: 2021-09-22 23:07
-
-Contribution: 2021-09-22 19:08
-
-Contribution: 2021-09-24 22:00
-
-Contribution: 2021-09-25 21:00
-
-Contribution: 2021-09-25 21:01
-
-Contribution: 2021-09-25 20:02
-
-Contribution: 2021-09-25 19:03
-
-Contribution: 2021-09-25 22:04
-
-Contribution: 2021-09-25 21:05
-
-Contribution: 2021-09-26 22:00
-
-Contribution: 2021-09-26 22:01
-
-Contribution: 2021-09-28 22:00
-
-Contribution: 2021-09-28 20:01
-
-Contribution: 2021-09-28 22:02
-
-Contribution: 2021-09-29 23:00
-
-Contribution: 2021-09-29 20:01
-
-Contribution: 2021-10-01 22:00
-
-Contribution: 2021-10-01 22:01
-
-Contribution: 2021-10-01 22:02
-
-Contribution: 2021-10-06 21:00
-
-Contribution: 2021-10-06 23:01
-
-Contribution: 2021-10-06 21:02
-
-Contribution: 2021-10-06 21:03
-
-Contribution: 2021-10-06 19:04
-
-Contribution: 2021-10-06 19:05
-
-Contribution: 2021-10-07 20:00
-
-Contribution: 2021-10-07 22:01
-
-Contribution: 2021-10-07 23:02
-
-Contribution: 2021-10-07 22:03
-
-Contribution: 2021-10-08 22:00
-
-Contribution: 2021-10-08 21:01
-
-Contribution: 2021-10-08 23:02
-
-Contribution: 2021-10-08 23:03
-
-Contribution: 2021-10-08 19:04
-
-Contribution: 2021-10-08 19:05
-
-Contribution: 2021-10-08 21:06
-
-Contribution: 2021-10-08 22:07
-
-Contribution: 2021-10-08 19:08
-
-Contribution: 2021-10-09 21:00
-
-Contribution: 2021-10-09 19:01
-
-Contribution: 2021-10-11 21:00
-
-Contribution: 2021-10-11 21:01
-
-Contribution: 2021-10-11 21:02
-
-Contribution: 2021-10-11 22:03
-
-Contribution: 2021-10-11 21:04
-
-Contribution: 2021-10-11 19:05
-
-Contribution: 2021-10-11 19:06
-
-Contribution: 2021-10-11 22:07
-
-Contribution: 2021-10-11 23:08
-
-Contribution: 2021-10-12 23:00
-
-Contribution: 2021-10-12 20:01
-
-Contribution: 2021-10-12 22:02
-
-Contribution: 2021-10-12 20:03
-
-Contribution: 2021-10-12 21:04
-
-Contribution: 2021-10-12 23:05
-
-Contribution: 2021-10-12 19:06
-
-Contribution: 2021-10-12 23:07
-
-Contribution: 2021-10-12 22:08
-
+**Important**: We do not accept translation changes as GitHub pull requests because the next
+pull from Transifex would automatically overwrite them again.
